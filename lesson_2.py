@@ -1,10 +1,10 @@
-# импортируем random module
+# импортируем builtins module
 
-import random
+import builtins
 
 # выводит список который состоит
-# из атрибутов rundom function
+# из атрибутов builtins function
 print('The contents of the library are::')
 
 # module Object используется как параметр
-print(dir(random))
+print(dir(builtins))
